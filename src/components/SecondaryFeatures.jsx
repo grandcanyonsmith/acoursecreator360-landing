@@ -13,9 +13,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    summary: 'Get detailed insights with our comprehensive reporting tools.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Our software provides comprehensive reporting tools that allow you to track and analyze your course performance. You can get detailed insights into course completion rates, student progress, revenue, and more. This data can help you make informed decisions to improve and grow your online course business.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,13 +46,13 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Memberships',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Manage and track your members efficiently with our membership management feature.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Our software allows you to easily manage memberships, track member engagement, and offer exclusive content or services to your members. This feature is designed to help you build and maintain a strong community around your course.',
     image: screenshotInventory,
-    icon: function InventoryIcon() {
+    icon: function MembershipIcon() {
       return (
         <>
           <path
@@ -76,9 +76,9 @@ const features = [
   {
     name: 'Contacts',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Manage all your student contacts in one place with our contact management feature.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Our software provides a contact management feature that allows you to manage all your student contacts in one place. You can add, edit, and delete contacts, keep track of their course progress, and communicate with them directly from the platform. This feature is designed to help you build and maintain strong relationships with your students.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
